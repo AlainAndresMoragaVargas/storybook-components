@@ -33,7 +33,7 @@ jobs:
 
       - name: Semantic Release
         env:
-          GH_SB_ACCESS_TOKEN: ${{ secrets.GH_SB_ACCESS_TOKEN }}
-          NPM_SB_ACCESS_TOKEN: ${{ secrets.NPM_SB_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_SB_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_SB_ACCESS_TOKEN }}
         run: npx semantic-release
 
