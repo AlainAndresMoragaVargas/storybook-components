@@ -17,9 +17,3 @@ Basic.args = {
   size: 'h1',
   color: 'primary'
 }
-
-export const Test = Template.bind({});
-Test.args = {
-  size: 'h1',
-  color: 'secondary'
-}
